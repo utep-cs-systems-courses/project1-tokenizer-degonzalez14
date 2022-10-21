@@ -20,6 +20,12 @@ char *word_start(char *str);
 /* Returns a pointer terminator char following *word */
 char *word_terminator(char *word);
 
+/* Returns the number of letters of the first availabe word*/
+int letter_count(char *str);
+
+/* Returns the lenght of given string*/
+int total_length(char *str);
+
 /* Counts the number of words in the string argument. */
 int count_words(char *str);
 
